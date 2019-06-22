@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:padding="10dp"
+    tools:context="com.mobileaders.penguinprofession.Activity.Registeration">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="580dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shapes"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/donotHaveAccountTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Don't Have an Account" />
+
+                <TextView
+                    android:id="@+id/signUpNowTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="40dp"
+                    android:text="sign up now"
+                    android:textColor="@color/colorPrimaryDark" />
+            </LinearLayout>
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/userNameRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="15dp"
+                android:hint="user Name" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/passwordRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="15dp"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/emailRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="15dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress" />
+
+            .
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/jobTitleRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="15dp"
+                android:hint="Job Title" />
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<android.support.v7.widget.AppCompatRadioButton-->
+            <!--android:id="@+id/rdEmployer"-->
+            <!--android:layout_width="20dp"-->
+            <!--android:layout_height="20dp"-->
+            <!--android:layout_marginLeft="35dp"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:background="@drawable/select"-->
+            <!--android:button="@android:color/transparent"-->
+            <!--android:checked="true" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/employee"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="9dp"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:text="Employee" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/orRegister"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="30dp"-->
+            <!--android:layout_marginRight="30dp"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:text="or" />-->
+
+            <!--<android.support.v7.widget.AppCompatRadioButton-->
+            <!--android:id="@+id/rdPerson"-->
+            <!--style="@style/RadioButton"-->
+            <!--android:layout_width="20dp"-->
+            <!--android:layout_height="20dp"-->
+            <!--android:layout_marginLeft="30dp"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:background="@drawable/radiobuttonshape"-->
+            <!--android:button="@android:color/transparent"-->
+            <!--android:checked="true" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/person"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="9dp"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:text="Person" />-->
+            <!--</LinearLayout>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+
+                <RadioGroup
+                    android:id="@+id/gender_radio_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:id="@+id/rdEmployer"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/select"
+                        android:button="@android:color/transparent"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/employee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1"
+                        android:text="Employee" />
+
+                    <TextView
+                        android:id="@+id/orRegister"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1"
+                        android:text="or" />
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:id="@+id/rdPerson"
+                        style="@style/RadioButton"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/select_active"
+
+                        android:button="@android:color/transparent"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/person"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1"
+                        android:text="Person" />
+
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/fb"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="17dp"
+                    android:background="@drawable/facebook_hover"
+                    android:padding="20dp" />
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/go"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="17dp"
+                    android:background="@drawable/google_plus_hover"
+                    android:padding="20dp" />
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/in"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="17dp"
+                    android:background="@drawable/linked_in_hover"
+                    android:padding="20dp" />
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/signup"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/signuphover"
+                    android:padding="5dp"
+                    android:text="sign up"
+                    android:textColor="@color/textColor" />
+
+                <com.facebook.login.widget.LoginButton
+                    android:id="@+id/fcLogin_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="30dp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/youHaveAccount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:text="You Have Already Account" />
+
+                <Button
+                    android:id="@+id/logInNow"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="LogIn Now"
+                    android:textColor="@color/colorGreen" />
+            </LinearLayout>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/create_account_hover"
+                android:text="Login" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/useWithoutAccount"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/normal_user_hover"
+            android:text="use withOut account"
+            android:textColor="@color/textColor" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/googleregister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>

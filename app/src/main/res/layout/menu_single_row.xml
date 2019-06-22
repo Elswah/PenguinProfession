@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearRecycler"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="35dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/menu_image_item"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/blog" />
+
+    <TextView
+        android:id="@+id/menu_text_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="40dp"
+        android:text="Blog"
+        android:textColor="#fff" />
+</LinearLayout>

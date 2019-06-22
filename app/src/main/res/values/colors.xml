@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#007dc3</color>
+    <color name="colorPrimaryDark">#0069a3</color>
+    <color name="colorAccent">#007dc3</color>
+    <color name="textColor">#FFFF</color>
+    <color name="colorGreen">#15926e</color>
+    <color name="colorGray">#ececec</color>
+    <color name="border">#FFAB00</color>
+    <color name="ProfileColorPrimary">#cccdce</color>
+    <color name="ProfileColorPrimaryDark">#cccdce</color>
+    <color name="ProfileColorAccent">#cccdce</color>
+</resources>
